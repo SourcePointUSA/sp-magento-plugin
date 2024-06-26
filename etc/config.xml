@@ -11,6 +11,10 @@
 				<gdpr/>
 				<usnat/>
 				<ccpa/>
+                <on_consent_ready/>
+                <on_error/>
+                <on_message_choice_select/>
+                <on_privacy_manager_action/>
 			</consent>
 		</sourcepoint>
 	</default>

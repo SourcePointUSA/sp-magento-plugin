@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+         <type name="Magento\Ui\Component\Wysiwyg\ConfigInterface">
+            <plugin disabled="false" name="vendor_package_plugin_magento_ui_component_wysiwyg_configinterface" sortOrder="10" type="Sourcepoint\Sourcepointcmp\Plugin\Magento\Ui\Component\Wysiwyg\ConfigInterface"/>
+        </type>
+ </config>
