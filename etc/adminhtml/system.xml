@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="CMP" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>Sourcepoint Config Settings</label>
+			<tab>general</tab>
+			<resource>Sourcepoint_Sourcepointcmp::config_sourcepoint_sourcepointcmp</resource>
+			<group id="configs" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<field id="enable_cmp" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Switch on the CMP Experience</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<label>Sourcepoint Consent Management</label>
+				<field id="account_id" type="text" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Sourcepoint Account ID</label>
+					<comment/>
+				</field>
+				<field id="property_href" type="text" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>propertHref paramter</label>
+					<comment>Set this if your Domain differs from the property name in Sourcepoint UI</comment>
+				</field>
+				<field id="join_href" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>joinHref</label>
+					<comment>Enable this if you like to use url regex targeting in the scenario</comment>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+				</field>
+				<field id="base_endpoint" type="text" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Your CNAME'D BaseEndpoint</label>
+					<comment/>
+				</field>
+			</group>
+
+			<group id="campaigns" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>Campaign Settings</label>
+				<field id="gdpr" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Enable GDPR</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+				</field>
+				<field id="usnat" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Enable USNAT</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+				</field>
+ 
+				<field id="ccpa" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Enable CCPA (legacy US)</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+				</field>
+			</group>
+		</section>
+		<tab id="advanced" translate="label" sortOrder="999">
+			<label>advanced</label>
+		</tab>
+	</system>
+</config>
