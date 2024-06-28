@@ -1,12 +1,12 @@
 <img src="/images/logo.png" width=25%>
 
-# Sourcepoint Magento Plugin
+# Sourcepoint CMP Magento Plugin
 
-Sourcepoint's Magento plugin enables your organization to quickly and easily deploy a consent message experience configured within the Sourcepoint portal onto your webpage for multiple regulatory and industry frameworks.
+Sourcepoint's CMP Magento plugin enables your organization to quickly and easily deploy a consent message experience configured within the Sourcepoint portal onto your webpage for multiple regulatory and industry frameworks.
 
 - [Prerequisites](#prerequisites)
-- [Install Sourcepoint Magento Plugin](#install-sourcepoint-magento-plugin)
-- [Configure Sourcepoint Magento Plugin](#configure-sourcepoint-magento-plugin)
+- [Install Sourcepoint CMP Magento Plugin](#install-sourcepoint-magento-plugin)
+- [Configure Sourcepoint CMP Magento Plugin](#configure-sourcepoint-magento-plugin)
 - [Support](#support)
 
 > The following sections assume that you have configured the necessary vendor lists, messages and other campaign entities for your web property within the Sourcepoint portal. [Click here](https://docs.sourcepoint.com/hc/en-us) to visit the Sourcepoint help center for more information.
@@ -19,7 +19,7 @@ The following prerequisites must be satisfied in order to utilize the Sourcepoin
 - **Magento Version:** Specify the Magento versions your plugin is compatible with (e.g., Magento 2.4.x).
 - **PHP Version:** Specify the PHP version required (e.g., PHP 7.4 or later).
 
-## Install Sourcepoint Magento Plugin
+## Install Sourcepoint CMP Magento Plugin
 
 The plugin supports two installation methods:
 
@@ -65,11 +65,11 @@ Install the Sourcepoint Magento plugin using Composer by performing the followin
    php bin/magento setup:static-content:deploy
    ```
 
-## Configure Sourcepoint Magento Plugin
+## Configure Sourcepoint CMP Magento Plugin
 
 > Ensure that your organization has configured the necessary vendor list(s) and campaign entities for your web property within the Sourcepoint portal before saving your configuration. [Click here](https://docs.sourcepoint.com/hc/en-us) to visit the Sourcepoint help center for more information.
 
-Once the Sourcepoint Magento plugin is installed, navigate to **Stores** and click **Configuration** from the menu. Select the **Sourcepoint CMP Configuration** tab.
+Once the Sourcepoint CMP Magento plugin is installed, navigate to **Stores** and click **Configuration** from the menu. Select the **Sourcepoint CMP Configuration** tab.
 
 From the subsequent page your organization can enter its account information, campaign message types, and add any custom code to Sourcepoint event callbacks. Please refer to the tables below on each availble field
 
