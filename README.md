@@ -15,9 +15,9 @@ Sourcepoint's CMP Magento plugin enables your organization to quickly and easily
 
 The following prerequisites must be satisfied in order to utilize the Sourcepoint Magento plugin:
 
-- **Sourcepoint script on property**? Assuming its unified only 4.x.x
-- **Magento Version:** Specify the Magento versions your plugin is compatible with (e.g., Magento 2.4.x).
-- **PHP Version:** Specify the PHP version required (e.g., PHP 7.4 or later).
+- **Sourcepoint Script Version**? Compatible with web properties using multi-campaign (4.x.x) 
+- **Magento Version:** Magento 2.x.x+
+- **PHP Version:** PHP 8+
 
 ## Install Sourcepoint CMP Magento Plugin
 
@@ -98,7 +98,7 @@ The following callbacks can be utilized by your organization to include custom c
 | `onMessageChoiceSelect` | Event callback fires when a call-to-action button in a message has been clicked. |
 | `onPrivacyManagerAction` | Event callback fires when a privacy manager button has been clicked. |
 
-Click **Save Config** when finished. Sourcepoint's tags will be added to your webpage and your consent message experience will be delivered in accordance with your scenario configuration.
+Click **Save Config** when finished. If **Switch on the CMP Experience** is enabled, Sourcepoint's tags will be added to your webpage and your consent message experience will be delivered in accordance with your scenario configuration.
 
 ## Support
 
