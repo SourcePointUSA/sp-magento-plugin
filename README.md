@@ -71,7 +71,7 @@ Install the Sourcepoint Magento plugin using Composer by performing the followin
 
 Once the Sourcepoint CMP Magento plugin is installed, navigate to **Stores** and click **Configuration** from the menu. Select the **Sourcepoint CMP Configuration** tab.
 
-From the subsequent page your organization can enter its account information, campaign message types, and add any custom code to Sourcepoint event callbacks. Please refer to the tables below on each availble field
+From the subsequent page your organization can enter its account information, campaign message types, and add any custom code to Sourcepoint event callbacks. Please refer to the tables below for each available field
 
 #### Sourcepoint Consent Management and Campaign Settings
 
