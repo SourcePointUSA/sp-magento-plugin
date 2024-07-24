@@ -2,7 +2,9 @@
     "name": "sourcepoint/module-sourcepointcmp",
     "description": "Sourcepoints Consent Management Platform for your Magento Shop",
     "type": "magento2-module",
-    "license": "GPL-3.0",
+    "license": [
+        "GPL-3.0"
+    ],
     "version": "1.0.2",
     "authors": [
         {
@@ -11,8 +13,9 @@
         }
     ],
     "minimum-stability": "dev",
-
-    "require": {},
+    "require": {
+        "php": "~8.2|~8.3",
+    },
     "autoload": {
         "files": [
             "registration.php"
